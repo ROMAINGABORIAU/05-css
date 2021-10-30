@@ -1,0 +1,106 @@
+body{
+    background-color: #E8CF8C;
+    padding: 0;
+    margin: 0;
+}
+
+header{
+    background-color: #B09754;
+    border-radius: 0px 0px 15px 15px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;  
+    
+    a{
+        color: black;
+        font-size: 30px;
+        text-decoration: none;
+        font-family: 'Ubuntu', sans-serif;
+        text-transform: uppercase;
+        vertical-align: middle;
+        padding-top: 15px;
+    }
+}
+@media screen and (max-width:960px){
+    header{
+        background-color: #B09754;
+        border-radius: 0px 0px 15px 15px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;  
+        
+        a{
+            color: black;
+            font-size: 30px;
+            text-decoration: none;
+            font-family: 'Ubuntu', sans-serif;
+            text-transform: uppercase;
+            vertical-align: middle;
+            padding-top: 15px;
+            text-align: center;
+        }
+    }
+    
+}
+
+.project{
+
+
+    .project_title{
+        text-align: center;
+        text-transform: uppercase;
+    }
+    p{
+        font-family: 'Ubuntu', sans-serif;
+        font-size: 32px;
+        text-align: center;
+    }
+    .flex_content{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+
+    }
+    @media screen and (max-width:1500px) {
+        .flex_content{
+            display: flex;
+            flex-direction: column;
+            justify-content: space-around;
+            width: 300px;
+            margin-left: auto;
+            margin-right: auto;
+            gap: 10px;
+        }
+    }
+
+}
+
+footer{
+    background-color: #B09754;
+    border-radius: 20px 20px 0px 0px;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+
+    p{
+        font-size: 30px;
+        text-align: left;
+    }
+    li{
+        font-size: 25px;
+        line-height: 10px;
+        text-align: left;
+    }
+    iframe{
+        margin-left: auto;
+        margin-right: auto;
+        display: block;
+        width: 50%;
+    }
+    .ico{
+        text-align: right;
+    }
+    .copyright{
+        text-align: center;
+    }
+}
