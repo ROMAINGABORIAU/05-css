@@ -42,111 +42,43 @@ header{
     }
     
 }
-
-
-.qsj_title{
-    text-align: center;
-    text-transform: uppercase;
-}
-.qui-suis-je{
-    display: flex;
-    img{
-        width: 300px;
-        height: 400px;
-        padding-left: 20px;
-        padding-right: 20px;
-        padding-top:  50px;
-    }
-    p{
-        font-family: 'Ubuntu', sans-serif;
-        font-size: 32px;
-    }
-
-}
-.qsj_btn{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
-
-
-@media screen and (max-width:1500px){
-    .qui-suis-je{
-        display: flex;
-        flex-direction: column-reverse;
-        img{
-            width: 300px;
-            height: 400px;
-            position: relative;
-            margin-left: auto;
-            margin-right: auto;
-        }
-        p{
-            font-family: 'Ubuntu', sans-serif;
-            font-size: 32px;
-        }
-    }
-    .qsj_btn{
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        margin-top: 10px;
-    }
-}
-.dïplome_titl{
-    text-align: center;
-    text-transform: uppercase;  
-}
-.diplomeO{
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-around;
-
-    img{
-        width: 400px;
-        border-radius: 20px;
-        padding-bottom: 10px;
-    }
-}
-.diplomePO_title{
-    text-align: center;
-    text-transform: uppercase;
-}
-.diplomePO{
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-around;
-
-    img{
-        width: 400px;
-        border-radius: 20px;
-        padding-bottom: 10px;
-    }
-}
 footer{
     background-color: #B09754;
-    border-radius: 20px 20px 0px 0px; 
+    border-radius: 20px 20px 0px 0px;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+
     p{
-        font-family: 'Ubuntu', sans-serif;
         font-size: 30px;
+        text-align: left;
     }
     li{
-        font-family: 'Ubuntu', sans-serif;
-        font-size: 20px;
-        line-height: 2px;
+        font-size: 25px;
+        line-height: 10px;
+        text-align: left;
     }
     iframe{
-        display: flex;
-        justify-content: center;
         margin-left: auto;
         margin-right: auto;
+        display: block;
+        width: 50%;
     }
     .ico{
-        display: flex;
-        justify-content: right;
+        text-align: right;
     }
     .copyright{
-        display: flex;
-        justify-content: center;
+        text-align: center;
     }
+}
+.cpt{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+img{
+    min-width: 200px;
+    max-height: 200px;
+    min-height: 200px;
+
 }
